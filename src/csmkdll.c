@@ -1,6 +1,6 @@
 /**
   ******************************************************************************
-  * @file    	DoubleLinkedList.c
+  * @file    	csmkdll.c
   * @author		Claude Stephane M. Kouame
   * @version 	V1.0
   * @date		Oct 10, 2021
@@ -203,8 +203,4 @@ void dll_print(DoubleLinkedList **dll) {
     /* free memory, which we don't need anymore */
     free(tmp_dll);
     free(last);
-}
-bool pop(DoubleLinkedList** dll, int * el)
-{
-
 }

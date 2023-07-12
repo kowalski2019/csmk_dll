@@ -1,6 +1,6 @@
 /**
   ******************************************************************************
-  * @file    	double_linked_list.h
+  * @file    	csmkdll.h
   * @author		Claude Stephane M. Kouame
   * @version 	V1.0
   * @date		Oct 10, 2021
@@ -9,8 +9,8 @@
   ******************************************************************************
 */
 
-#ifndef DOUBLELINKEDLIST_H
-#define DOUBLELINKEDLIST_H
+#ifndef CSMKDLL_H
+#define CSMKDLL_H
 
 #include <stdlib.h>
 #include <stdio.h>
@@ -34,4 +34,4 @@ void dll_remove(DoubleLinkedList**, int);
 void dll_clear(DoubleLinkedList**);
 void dll_print(DoubleLinkedList**);
 
-#endif /* DOUBLELINKEDLIST_H */
+#endif /* CSMKDLL_H */
